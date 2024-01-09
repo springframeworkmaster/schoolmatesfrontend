@@ -40,14 +40,14 @@ const ListSchoolmateComponent = () => {
                     Delete
                   </button> */}
                 </td>
-                <td>
+                {/* <td>
                   <button
                     className="btn btn-outline-info"
                     onClick={() => updateSchoolmate(item.id)}
                   >
                     Update
                   </button>
-                </td>
+                </td> */}
               </tr>
             );
           })}
